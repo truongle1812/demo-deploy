@@ -1,0 +1,439 @@
+/* <!-- GLOBAL --> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <!-- FONT --> */
+html,
+body {
+    color: #212529;
+    background-color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 0;
+}
+
+/* <!-- clear FLOAT --> */
+.clear {
+    clear: both;
+}
+
+/* <!-- EDIT FLOAT 2 sides--> */
+.float__2 {
+    float: left;
+    width: 50%;
+}
+
+/* <!-- EDIT Font in URL --> */
+.url__edit {
+    color: black;
+
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* <!-- EDIT Font in TITLE H2 --> */
+.title__h2__edit {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+/* <!-- EDIT Font in TITLE H3 --> */
+.title__h3__edit {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* <!-- EDIT BUTTON --> */
+.button__edit {
+    background-color: hsl(47deg 100% 50%);
+    border: 0;
+    border-radius: 5px;
+
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+/* <!-- EDIT BUTTON FONT --> */
+.button__font__edit {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------------------------------- */
+/*     <!-- HEADER --> */
+
+.header {
+    padding: 15px 0 0 100px;
+}
+
+.header__content h2 {
+    display: inline;
+
+    vertical-align: -7px;
+    margin: 0 0 0 5px;
+}
+
+.header__logo {
+    background-color: rgb(0, 33, 71);
+    border-radius: 50%;
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.header__logo i {
+    color: hsl(48deg 89% 45%);
+
+    font-size: 1rem;
+    line-height: 40px;
+}
+
+.header__nav ul {
+    list-style: none;
+
+    padding-top: 20px;
+}
+
+.header__nav li {
+    display: inline;
+    padding: 20px;
+}
+
+/* ----------------------------------------------------------------------- */
+/* <!-- CAROUSEL --> */
+.carousel {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+
+    margin: 20px 0;
+}
+
+/* ----------------------------------------------------------------------- */
+/* <!-- INTRODUCTION --> */
+.intro {
+    margin: auto;
+    padding: 50px 100px 50px;
+    width: 100%;
+
+    text-align: center;
+}
+
+.intro__left {
+    text-align: left;
+}
+
+.intro__left h2 {
+    padding-bottom: 15px;
+}
+
+.intro__left p {
+    opacity: 0.6;
+    line-height: 1.4rem;
+
+    margin: 5px 0 5px;
+    padding: 0 40px 0 0;
+}
+
+.intro__left .button__edit {
+    margin-top: 30px;
+}
+
+.intro__right {
+    background-image: url(../img/g1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+}
+
+/* ----------------------------------------------------------------------- */
+/* <!-- ACHIEVEMENT --> */
+.achieve {
+    background-color: hsl(0deg 0% 96%);
+    width: 100%;
+
+    margin: 40px 0 40px 0;
+    padding: 60px 15px;
+    text-align: center;
+}
+
+.achieve__content {
+    width: 90%;
+    margin: auto;
+}
+
+.achieve__item {
+    float: left;
+    width: 25%;
+}
+
+.achieve__left {
+    text-align: left;
+
+    font-size: 3.75rem;
+    font-weight: 700;
+
+    padding-left: 15px;
+
+    position: absolute
+}
+
+.achieve__right {
+    text-align: left;
+    position: relative;
+    left: 95px;
+    top: 10px;
+
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+/* ----------------------------------------------------------------------- */
+/* <!-- STUDY --> */
+.study {
+    color: white;
+    text-align: center;
+    padding: 60px;
+    margin: 10px;
+}
+
+.study__item {
+    background-color: hsl(212deg 100% 14%);
+    background-size: cover;
+    width: 90%;
+    height: 150px;
+
+    /* Canh chỉnh Block "study_item" */
+    margin: 20px;
+
+    /* / Canh chinh nội dung "study_item" */
+    padding: 30px 10px 0 10px;
+}
+
+.study__logo {
+    font-size: 2.5rem;
+    /* margin: 0 0 15px 0; */
+}
+
+.study__content {
+    padding: 15px 0 0 0;
+}
+
+.study__content a {
+    color: white;
+}
+
+/* ----------------------------------------------------------------------- */
+/* <!-- NEWS --> */
+.news {
+    background-color: #f6f6f6;
+    width: 100%;
+
+    /* <!-- Tạo khoảng cách với FOOTER --> */
+    padding: 60px 0;
+}
+
+.news__background {
+    text-align: left;
+    padding-bottom: 50px;
+    margin-left: 55px;
+}
+
+.news__left h2,
+.news__right h2 {
+    padding: 50px 0 30px 30px;
+}
+
+.news__left .news__box {
+    background-color: white;
+    height: 650px;
+    margin: 20px;
+
+}
+
+.news__right .news__box {
+    background-color: white;
+    height: 220px;
+    margin: 20px;
+
+    /* Thu nhỏ background trắng của news__right */
+    margin-right: 170px;
+}
+
+.news__item {
+    height: 200px;
+    padding: 25px 20px 20px;
+}
+
+.news__item img {
+    background-image: url(./img/g9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.news__item .news__day {
+    line-height: 2.4em;
+    color: hsl(0deg 0% 57.65%);
+}
+
+.news__item .news__paragraph {
+    line-height: 1.4em;
+    padding-top: 5px;
+}
+
+
+/* <!-- FLOAT ko có with--> */
+.news__right .news__item {
+    float: left;
+}
+
+.news__right .news__item h3{
+    margin-bottom: 5px;
+}
+
+.news__day__month,
+.news__year {
+    text-align: center;
+}
+
+.news__day__month {
+    background-color: hsl(47.43deg 100% 49.61%);
+    color: black;
+
+    width: 100%;
+    padding: 15px 50px
+}
+
+.news__day__month p:first-of-type {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.news__day__month p:last-of-type {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.news__year {
+    background-color: hsl(211.71deg 100% 13.73%);
+    color: white;
+
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.news__year p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.news__right .news__time,
+.news__right .news__place {
+    color: hsl(211.43deg 53.85% 22.94%);
+    display: inline;
+    font-weight: 500;
+}
+
+.news__right .news__time {
+    border-right: solid rgba(0, 0, 0, 0.158);
+    padding-right: 5px;
+}
+
+.news__right .news__place {
+    padding-left: 10px;
+}
+
+/* <!-- Gạch chia nội dung --> */
+.news__line {
+    opacity: 0.3;
+    margin: 0 50px;
+}
+
+/* <!-- Button --> */
+.news__button__left {
+    text-align: right;
+    padding-right: 18px;
+}
+
+.news__button__right {
+    text-align: right;
+    padding-right: 170px;
+    /* bằng với margin-right của .news__right .news__box */
+}
+
+/* ----------------------------------------------------------------------- */
+/* <!-- FOOTER --> */
+.footer {
+    background-color: hsl(211.71deg 100% 13.73%);
+    color: white;
+    height: 100%;
+}
+
+.footer__box {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.footer__content {
+    float: left;
+    width: 33%;
+    text-align: left;
+}
+
+.footer__mid {
+    padding-left: 40px;
+}
+
+.footer__content i {
+    color: hsl(47.43deg 100% 49.61%);
+    ;
+}
+
+.footer__content h3 {
+    padding: 30px 0 20px;
+}
+
+.footer__content p {
+    padding: 5px 0;
+}
+
+.footer__content span {
+    padding-left: 15px;
+    line-height: 1.6em;
+}
+
+.footer__content li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer__content a {
+    color: white;
+    display: block;
+}
+
+.footer__line {
+    margin: 15px 70px;
+    opacity: 0.3;
+}
+
+.footer_last {
+    padding: 5px 70px 50px;
+}
